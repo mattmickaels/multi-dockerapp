@@ -2,7 +2,7 @@ sudo: required
 services:
   - docker
   
-  before_install:
+before_install:
   - docker build -t mmickaels/react-test -f ./client/Dockerfile.dev
 
 script:
