@@ -16,7 +16,7 @@
         },
         {
             "name": "worker",
-            "image": "mmickaels,multi-worker",
+            "image": "mmickaels/multi-worker",
             "hostname": "worker",
             "essential": "false",
             "memory": 128
